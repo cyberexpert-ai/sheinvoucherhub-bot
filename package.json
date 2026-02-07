@@ -1,0 +1,29 @@
+{
+  "name": "sheinvoucherhub-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for selling Shein vouchers, hosted on Render.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "shein",
+    "vouchers",
+    "nodejs",
+    "render"
+  ],
+  "author": "Your Name Here",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "googleapis": "^110.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "randomstring": "^1.2.3"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
