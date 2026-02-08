@@ -4,8 +4,7 @@
   "description": "Telegram bot for selling Shein vouchers, hosted on Render.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [
     "telegram",
@@ -13,9 +12,10 @@
     "shein",
     "vouchers",
     "nodejs",
-    "render"
+    "render",
+    "google-sheets"
   ],
-  "author": "Your Name Here",
+  "author": "Tanay sardar",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
